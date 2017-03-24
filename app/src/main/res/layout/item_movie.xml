@@ -22,7 +22,8 @@
         tools:src="@mipmap/ic_launcher"
         android:id="@+id/ivMovieImage"
         android:layout_alignParentTop="true"
-        android:layout_alignBottom="@+id/tvOverview" />
+        android:layout_alignBottom="@+id/tvOverview"
+        android:onClick="openDetails"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
